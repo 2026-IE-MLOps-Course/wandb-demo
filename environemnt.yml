@@ -1,0 +1,22 @@
+name: icu-wandb-notebook
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - wandb
+
+  # Notebook runtime
+  - ipykernel
+  - notebook
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - matplotlib
+
+  # Machine learning
+  - scikit-learn
+  - joblib
+
+  # SHAP
+  - shap

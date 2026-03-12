@@ -21,6 +21,7 @@ __pycache__/
 env/
 venv/
 miniconda/
+.vscode/
 
 # 6. Secrets
 .env

@@ -1,0 +1,26 @@
+# .gitignore
+
+# 1. Weights & Biases (Crucial: never commit local run logs/artifacts)
+wandb/
+
+# 2. Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# 3. Datasets (Don't commit raw/uncompressed data if it's large)
+*.csv
+*.csv.gz
+
+# 4. Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 5. Local Virtual Environments
+.env/
+.venv/
+env/
+venv/
+miniconda/
+
+# 6. Secrets
+.env
